@@ -1,0 +1,20 @@
+{
+  "name": "vyra-nextjs-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "@vyra/sdk": "file:../../vyra-sdk",
+    "@solana/wallet-adapter-react": "^0.15.33",
+    "@solana/wallet-adapter-react-ui": "^0.9.33",
+    "@solana/wallet-adapter-wallets": "^0.19.20",
+    "@solana/web3.js": "^1.95.3",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
